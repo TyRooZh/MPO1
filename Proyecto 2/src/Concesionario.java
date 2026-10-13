@@ -34,7 +34,7 @@ public class Concesionario {
         coche3.setColor ("Gris");
         System.out.printf("La marca del tercer coche es %s, su modelo es %s y tiene un color %s. Su velocidad actual es %dKm/h y tiene unos %dKm\n", coche3.getMarca(), coche3.getModelo(), coche3.getColor(), coche3.getVelocidad(), coche3.getKilometros());
         System.out.println("");
-        System.out.printf("Total de coches fabricados es %d\n", Coche.getTotalCoches());
+        System.out.printf("El total de coches en el concesionario es %d\n", Coche.getTotalCoches());
         System.out.println("");
 
         Coche.registrarCocheExterno();
@@ -44,9 +44,7 @@ public class Concesionario {
         Coche.registrarCocheExterno();
         Coche.registrarCocheExterno();
         Coche.registrarCocheExterno();
-        System.out.printf("Total de coches fabricados es %d\n", Coche.getTotalCoches());
-
-
+        System.out.printf("El total de coches en el concesionario es %d\n", Coche.getTotalCoches());
 
     }
 }
